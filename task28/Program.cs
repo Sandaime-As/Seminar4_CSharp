@@ -10,10 +10,10 @@ Clear();
 Write("Enter the number: ");
 
 int Mult = int.Parse(ReadLine()!);
-int mult = GetSum(Mult);
+int mult = GetMult(Mult);
 WriteLine($"Произведение чисел: {mult}");
 
-int GetSum(int number)
+int GetMult(int number)
 {
     int result=1;
     for(int i=1; i<=number; i++)
