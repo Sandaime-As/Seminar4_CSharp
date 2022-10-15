@@ -9,9 +9,9 @@ using static System.Console;
 Clear();
 Write("Enter the number: ");
 
-int Sum = int.Parse(ReadLine()!);
-int sum = GetSum(Sum);
-WriteLine($"Произведение чисел: {sum}");
+int Mult = int.Parse(ReadLine()!);
+int mult = GetSum(Mult);
+WriteLine($"Произведение чисел: {mult}");
 
 int GetSum(int number)
 {
