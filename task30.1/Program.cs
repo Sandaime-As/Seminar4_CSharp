@@ -37,7 +37,7 @@ void PrintArray(int[] inArray)
 int count(int[] inArray)
 {
     int result=0;
-    for(int i=0; i<inArray.Length-1; i++)
+    for(int i=0; i<inArray.Length; i++)
     {
         if(inArray[i]==0)
         {
